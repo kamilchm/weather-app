@@ -1,0 +1,10 @@
+.DS_Store
+.merlin
+.bsb.lock
+npm-debug.log
+yarn-error.log
+/lib/
+/node_modules/
+/.cache/
+/dist/
+/src/*.js

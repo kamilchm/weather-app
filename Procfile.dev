@@ -1,0 +1,2 @@
+bsb-w: bsb -make-world -w
+parcel-w: parcel src/index.html
