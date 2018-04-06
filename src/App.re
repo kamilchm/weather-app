@@ -56,6 +56,7 @@ let make = (_children) => {
         switch self.state.weather {
         | None => ReasonReact.stringToElement("Loading weather...");
         | Some(weather) => ReasonReact.stringToElement(weather.summary);
+        | Error => ReasonReact.stringToElement("Loading weather... ERROR!")
         }
       }
       </p>
